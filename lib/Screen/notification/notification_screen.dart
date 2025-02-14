@@ -465,9 +465,7 @@ class NotificationCard extends StatelessWidget {
                                           .removeNotification(notification);
                                     },
                                     style: ElevatedButton.styleFrom(
-                                      primary:
-                                          Colors.blueAccent, // Background color
-                                      onPrimary: Colors.white, // Text color
+                                      foregroundColor: Colors.white, backgroundColor: Colors.blueAccent, // Text color
                                       padding: EdgeInsets.all(0),
                                       shape: RoundedRectangleBorder(
                                         borderRadius: BorderRadius.circular(10),
@@ -526,9 +524,7 @@ class NotificationCard extends StatelessWidget {
                                           .removeNotification(notification);
                                     },
                                     style: ElevatedButton.styleFrom(
-                                      primary:
-                                          Colors.blueGrey, // Background color
-                                      onPrimary: Colors.white, // Text color
+                                      foregroundColor: Colors.white, backgroundColor: Colors.blueGrey, // Text color
                                       padding: EdgeInsets.symmetric(
                                           horizontal: 0, vertical: 0),
                                       shape: RoundedRectangleBorder(

@@ -17,9 +17,8 @@ class DefaultButton extends StatelessWidget {
       height: (56 / 812.0) * _mediaQueryData.size.height,
       child: TextButton(
         style: TextButton.styleFrom(
-          shape:
+          foregroundColor: Colors.white, shape:
               RoundedRectangleBorder(borderRadius: BorderRadius.circular(20)),
-          primary: Colors.white,
           backgroundColor: Color(0XFF12B2B8),
         ),
         onPressed: press as VoidCallback,
